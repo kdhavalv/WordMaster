@@ -1,9 +1,9 @@
 import type { Messages } from './de'
 
 export const en: Messages = {
-  'app.title': 'WordMaster – Spelling Trainer',
+  'app.title': 'Wortmeister – Spelling Trainer',
   'app.description':
-    'WordMaster is a spelling and dictation trainer for primary-school children. Listen to words, write them on paper, and check them together.',
+    'Wortmeister is a spelling and dictation trainer. Listen to words, write them on paper, and check them together.',
   'app.name': 'Wortmeister',
   'app.tagline': 'Spelling Trainer',
   'meta.homeTitle': 'Wortmeister – Home',
@@ -41,6 +41,7 @@ export const en: Messages = {
   'common.wordsInOptionOne': '{name} – {count} word',
   'common.marked': '{marked}/{total} marked',
   'common.language': 'Language',
+  'common.level': 'Level {level}',
   'locale.de': 'Deutsch',
   'locale.en': 'English',
 
@@ -56,13 +57,14 @@ export const en: Messages = {
   'update.available': 'A new version of Wortmeister is available.',
   'update.reload': 'Update now',
 
-  'home.eyebrow': 'For grade 4',
+  'home.eyebrow': 'Practise German',
   'home.title': 'Listen. Write on paper. Check together.',
   'home.text':
-    'Wortmeister reads each word aloud. Your child writes it on paper, and you reveal the correct spelling and mark whether it was right.',
+    'Wortmeister reads words aloud. Write them on paper, reveal the correct spelling, and mark whether it was right.',
   'home.startEyebrow': 'Let’s begin',
   'home.startHeading': 'Start a new round',
   'home.listLabel': 'Word list',
+  'home.levelLabel': 'Level',
   'home.wordCount': 'Number of words',
   'home.shuffle': 'Shuffle words',
   'home.limitNoticeOne':
@@ -81,16 +83,54 @@ export const en: Messages = {
   'home.results.heading': 'Recent results',
   'home.results.empty': 'No results yet. Start your first practice or exam.',
 
-  'starter.name': 'Grade 4 basic vocabulary (example)',
+  'curated.eyebrow': 'Curated lists',
+  'curated.heading': 'Word lists by level, theme, and word type',
+  'curated.text':
+    '1296 words in 4 levels, also grouped by theme and word type. Internally curated, without external word lists.',
+  'home.category': 'Category',
+  'home.category.levels': 'Levels',
+  'home.category.themes': 'Themes',
+  'home.category.types': 'Word types',
+  'home.category.custom': 'My lists',
+  'starter.name': 'Basic vocabulary (Level 2)',
   'starter.description':
-    'Common words with tricky spellings: silent h, double consonants, ä/äu, s/ss/ß, v/f, and final d/t.',
+    'Common words with typical spelling patterns: vowel length, double consonants, umlauts, s/ss/ß, v/f, and final consonants.',
   'starter.template': 'Template',
   'starter.copy': 'Edit a copy',
+  'curated.level1.name': 'Level 1 – Starter',
+  'curated.level1.description': 'Short, concrete words with regular spelling.',
+  'curated.level3.name': 'Level 3 – Building up',
+  'curated.level3.description': 'Words with vowel length, s/ss/ß, v/f, and common word parts.',
+  'curated.level4.name': 'Level 4 – Advanced',
+  'curated.level4.description': 'Longer words, compounds, and more demanding spellings.',
+
+  'theme.alltag': 'Everyday life',
+  'theme.haus': 'Home & living',
+  'theme.essen': 'Food & drink',
+  'theme.obst': 'Fruit',
+  'theme.gemuese': 'Vegetables',
+  'theme.natur': 'Nature & weather',
+  'theme.tiere': 'Animals',
+  'theme.koerper': 'Body & health',
+  'theme.schule': 'School & learning',
+  'theme.arbeit': 'Work & office',
+  'theme.berufe': 'Professions',
+  'theme.sport': 'Sports & movement',
+  'theme.reise': 'Travel & transport',
+  'theme.zeit': 'Time',
+  'theme.gefuehle': 'Feelings',
+  'theme.gegenstaende': 'Objects',
+  'theme.abstrakt': 'Abstract concepts',
+
+  'type.noun': 'Nouns',
+  'type.verb': 'Verbs',
+  'type.adjective': 'Adjectives',
+  'type.other': 'Other words',
 
   'lists.eyebrow': 'Word lists',
   'lists.title': 'Your words',
   'lists.text':
-    'Create and edit your own lists, or use the example list as a starting point.',
+    'Create and edit your own lists, or use a curated list as a starting point.',
   'lists.new': 'New list',
   'lists.deleted': 'List deleted.',
   'lists.importEmpty': 'No valid lists were found in the file.',
@@ -167,7 +207,7 @@ export const en: Messages = {
   'settings.results.clearConfirm': 'Clear the result history?',
   'settings.results.cleared': 'Result history cleared.',
   'settings.reset.confirm':
-    'Delete all lists, results, and settings? The example list will remain available.',
+    'Delete all lists, results, and settings? The curated lists will remain available.',
   'settings.reset.done': 'All data has been reset.',
 
   'session.exit': 'Exit',

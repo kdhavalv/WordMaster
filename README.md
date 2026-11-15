@@ -1,8 +1,8 @@
 # Wortmeister
 
-A German spelling and dictation trainer for elementary school children. The app
-speaks one word at a time, the child writes it on paper, and the parent reveals
-the correct spelling and marks it right or wrong.
+A German spelling and dictation trainer. The app
+speaks one word at a time, you write it on paper, then reveal
+the correct spelling and mark it right or wrong.
 
 All data stays in the browser on the device. There is no account and no server.
 The interface is available in German and English; the learning words stay German.
@@ -13,7 +13,7 @@ The interface is available in German and English; the learning words stay German
 - Exam mode with a review screen at the end
 - 25 words per session by default, configurable from 1 to 50
 - German text-to-speech via the browser
-- Built-in starter list with common 4th-grade spelling words
+- 4 curated levels plus theme and word-type packs (1296 words total), grouped by difficulty, theme, and word type
 - Custom word lists, duplication, import and export
 - Session history and backup/restore
 - German/English interface with a saved language preference
@@ -48,7 +48,7 @@ Chrome channel; install Chrome if it is not already available.
 
 ## Use
 
-1. Open **Wortlisten** (Word lists) to create a list or duplicate the starter list.
+1. Open **Wortlisten** (Word lists) to create a list or use a curated level list.
 2. Go to **Startseite** (Home), choose a list and start **Übung** (Practice) or
    **Prüfung** (Exam).
 3. The word is read aloud. Use **Wort anhören** or the space bar to repeat it.

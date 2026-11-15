@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import type { ChangeEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Mascot } from '../components/Mascot'
-import { STARTER_LIST } from '../data/starterWords'
+import { CURATED_TEXT_KEYS, LEVEL_PACKS, THEME_PACKS, TYPE_PACKS } from '../data/wordBank'
 import { useI18n, usePageTitle } from '../i18n'
 import { downloadJson, readJsonFile } from '../lib/files'
 import { sanitizeLists } from '../lib/storage'
@@ -36,7 +36,13 @@ export function ListsPage() {
   const [message, setMessage] = useState<Message | null>(null)
 
   function displayName(list: WordList): string {
-    return list.id === STARTER_LIST.id ? t('starter.name') : list.name
+    const keys = CURATED_TEXT_KEYS[list.id]
+    return keys ? t(keys.name as never) : list.name
+  }
+
+  function description(list: WordList): string | undefined {
+    const keys = CURATED_TEXT_KEYS[list.id]
+    return keys?.description ? t(keys.description as never) : list.description
   }
 
   function wordCountLabel(count: number): string {
@@ -51,6 +57,7 @@ export function ListsPage() {
       ...list,
       id: createId(),
       name: `${displayName(list)} (${t('common.copySuffix')})`,
+      source: 'custom',
       createdAt: now,
       updatedAt: now,
     }
@@ -114,6 +121,54 @@ export function ListsPage() {
     }
   }
 
+  function renderPackGroup(titleKey: string, packs: WordList[]) {
+    return (
+      <section aria-labelledby={`curated-${titleKey}`}>
+        <div className="section-heading">
+          <div>
+            <h3 id={`curated-${titleKey}`}>{t(titleKey as never)}</h3>
+          </div>
+        </div>
+        <div className="list-grid">
+          {packs.map((list) => (
+            <article key={list.id} className="panel list-card">
+              <div className="list-card__head">
+                <h4>{displayName(list)}</h4>
+                <span className="badge badge--soft">
+                  {list.level ? `${t('common.level', { level: String(list.level) })} · ` : ''}
+                  {wordCountLabel(list.words.length)}
+                </span>
+              </div>
+              {description(list) && <p className="muted">{description(list)}</p>}
+              <p className="list-card__preview" lang="de-DE">
+                {list.words.slice(0, 8).join(' · ')}
+              </p>
+              <details className="word-preview">
+                <summary>{t('common.showWords')}</summary>
+                <ul className="word-chips">
+                  {list.words.map((word) => (
+                    <li key={word} lang="de-DE">
+                      {word}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+              <div className="card-actions">
+                <button
+                  type="button"
+                  className="btn btn--secondary"
+                  onClick={() => duplicateList(list)}
+                >
+                  {t('starter.copy')}
+                </button>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
   return (
     <div className="page">
       <div className="page-heading">
@@ -162,36 +217,17 @@ export function ListsPage() {
         </p>
       )}
 
-      <section className="panel" aria-labelledby="starter-heading">
+      <section aria-labelledby="curated-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">{t('starter.template')}</p>
-            <h2 id="starter-heading">{t('starter.name')}</h2>
+            <p className="eyebrow">{t('curated.eyebrow')}</p>
+            <h2 id="curated-heading">{t('curated.heading')}</h2>
+            <p className="muted">{t('curated.text')}</p>
           </div>
-          <span className="badge badge--soft">
-            {wordCountLabel(STARTER_LIST.words.length)}
-          </span>
         </div>
-        <p className="muted">{t('starter.description')}</p>
-        <details className="word-preview">
-          <summary>{t('common.showWords')}</summary>
-          <ul className="word-chips">
-            {STARTER_LIST.words.map((word) => (
-              <li key={word} lang="de-DE">
-                {word}
-              </li>
-            ))}
-          </ul>
-        </details>
-        <div className="card-actions">
-          <button
-            type="button"
-            className="btn btn--secondary"
-            onClick={() => duplicateList(STARTER_LIST)}
-          >
-            {t('starter.copy')}
-          </button>
-        </div>
+        {renderPackGroup('home.category.levels', LEVEL_PACKS)}
+        {renderPackGroup('home.category.themes', THEME_PACKS)}
+        {renderPackGroup('home.category.types', TYPE_PACKS)}
       </section>
 
       <section aria-labelledby="own-lists-heading">

@@ -1,0 +1,10438 @@
+[
+  {
+    "word": "Haus",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Baum",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Buch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Ball",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tisch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Bett",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Tür",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Hof",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Weg",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "See",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Mond",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Stern",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Wind",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Regen",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Schnee",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Wolke",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Blume",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Gras",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Blatt",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Apfel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Birne",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Milch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Ei",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Salz",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Suppe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Tasse",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Glas",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Topf",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Besen",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lampe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Bank",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stift",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Heft",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Papier",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Bild",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Spiel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Puppe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Auto",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Bus",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Boot",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Zug",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Rad",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Ring",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hut",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rock",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hose",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Jacke",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schal",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Brot",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Käse",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Fisch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Hund",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Katze",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Maus",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Vogel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Pferd",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Kuh",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Schaf",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Huhn",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Ente",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Frosch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Biene",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Bär",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Wolf",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Kopf",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Arm",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Bein",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Hand",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Fuß",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Herz",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Nase",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Mund",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Ohr",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Auge",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Mann",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Frau",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kind",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Oma",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Opa",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mama",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Papa",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "rot",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "blau",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "grün",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gelb",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "braun",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "klein",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "groß",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "alt",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "neu",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gut",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kalt",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "warm",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "leise",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "laut",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schnell",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "langsam",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "eins",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zwei",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "drei",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Tag",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Zeit",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Welt",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stadt",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Dorf",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Park",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Berg",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Tal",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Meer",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Sand",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Stein",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Luft",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Erde",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Garten",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "natur",
+      "haus"
+    ]
+  },
+  {
+    "word": "Zaun",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tor",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wand",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Dach",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Raum",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Bad",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Küche",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Sofa",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Regal",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Dose",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Korb",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kiste",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Seil",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nagel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kamm",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Seife",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Handtuch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Spiegel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Bettdecke",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kissen",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Hemd",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kleid",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Socke",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mütze",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gürtel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tasche",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rucksack",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zebra",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Tiger",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Löwe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Affe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Hase",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Igel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Panda",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Kamel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Wal",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Hai",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Delphin",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Krebs",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Spinne",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Ameise",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Wurm",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Adler",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Eule",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Rabe",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Brei",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kuchen",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Torte",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Obst",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Honig",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Zucker",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Kaffee",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Tee",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Saft",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Wurst",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fleisch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Reis",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Nudel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Bohne",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Erbse",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Tomate",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Gurke",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Karotte",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Zwiebel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Banane",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Orange",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Traube",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Beere",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Pfirsich",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Zitrone",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Mango",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Melone",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Tennis",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Laufen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Springen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Malen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Singen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tanzen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lesen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Schreiben",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Rechnen",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "kochen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "backen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "waschen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "putzen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "helfen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "tragen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "öffnen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "finden",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "suchen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "geben",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sehen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "hören",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sagen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fragen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "denken",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "machen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gehen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "stehen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sitzen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "liegen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "spielen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "lernen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "lachen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "weinen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "warten",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kaufen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verkaufen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zahlen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "bauen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fliegen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "werfen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "fangen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "heute",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "morgen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "gestern",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "früh",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "spät",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "oft",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "nie",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "jetzt",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "hier",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "dort",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "oben",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "unten",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "links",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "rechts",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "innen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "außen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "allein",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zusammen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gern",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wenig",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kurz",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "lang",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "hell",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "dunkel",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schwer",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "leicht",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "voll",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "leer",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nah",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fern",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "jung",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "müde",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "wach",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "krank",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gesund",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "froh",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "traurig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "ruhig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "böse",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "nett",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "stark",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schwach",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sauber",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schmutzig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "teuer",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "billig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "richtig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "falsch",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "offen",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fertig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kaputt",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gerade",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "rund",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "spitz",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "glatt",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "weich",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "hart",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nass",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "trocken",
+    "level": 1,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "süß",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sauer",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "bitter",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "scharf",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ehrlich",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "mutig",
+    "level": 1,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "danke",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ja",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nein",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "hallo",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "tschüss",
+    "level": 1,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Name",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wort",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Satz",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrrad",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "fahren",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Jahr",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Zahl",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zahn",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Hahn",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sahne",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Uhr",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ohr",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Stuhl",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Schule",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Schuh",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mehl",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lehrer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "wohnen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nehmen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Sohn",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "sehr",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "mehr",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kommen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "können",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "rennen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Sonne",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wasser",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "essen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "lassen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "müssen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wissen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "bitte",
+    "level": 2,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "immer",
+    "level": 2,
+    "type": "other",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Hammer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Keller",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Teller",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Suppe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Mutter",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Butter",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Himmel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Sommer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Brille",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Klasse",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Treppe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Schlüssel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bäume",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Träume",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Häuser",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mäuse",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "läuft",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schläft",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Käse",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Mädchen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bär",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Käfer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Äpfel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Blätter",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wände",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bänke",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bäcker",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Gärtner",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Hände",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Zähne",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Straße",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fuß",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "groß",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "heißen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fließen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schließen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Fußball",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "weiß",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "heiß",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Spaß",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fluss",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Schluss",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kuss",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vogel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Vater",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "viel",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "vier",
+    "level": 2,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Vase",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fenster",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Feuer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Fuchs",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Fisch",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Freude",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "Freund",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Familie",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hund",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Kind",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wald",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Feld",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bild",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Land",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hand",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Mund",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Brot",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Nacht",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Licht",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Pferd",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Geld",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schmetterling",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Eichhörnchen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Weihnachten",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geburtstag",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Frühstück",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Wanderung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Schwimmbad",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Spielplatz",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Zahnarzt",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Krankenhaus",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Feuerwehr",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Polizei",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bahnhof",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Flughafen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Fahrkarte",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Handschuh",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schulranzen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Hausaufgaben",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Tafel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Kreide",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Pause",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Ferien",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Abend",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mittag",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Minute",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Stunde",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Woche",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Monat",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Herbst",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Winter",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Wetter",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Sturm",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Nebel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Donner",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Blitz",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Wiese",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Gartenzaun",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Blüten",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Zweig",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Wurzel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Teich",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Insel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Strand",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Hügel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Brücke",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Straßenrand",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kellerraum",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Dachboden",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Zimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Flur",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Garderobe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Teppich",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Schrank",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Kommode",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Sessel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Decke",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Kissenbezug",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bettwäsche",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Handschuhe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stiefel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Pullover",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "T-Shirt",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kleidung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schmuck",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geldbeutel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einkauf",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Laden",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Markt",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bäckerei",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Metzgerei",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Apfelbaum",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Gemüsebeet",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Tomatensoße",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Marmelade",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Pfannkuchen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mittagessen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Abendessen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Flasche",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gabel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Löffel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Messer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Serviette",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lehrerin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "schule"
+    ]
+  },
+  {
+    "word": "Schüler",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "schule"
+    ]
+  },
+  {
+    "word": "Freundin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachbar",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Besucher",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arzt",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Ärztin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Bäckerin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Fahrer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Köchin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Spielzeug",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rätsel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geschichte",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Buchseite",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Zeichnung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Buntstift",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Lineal",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Radiergummi",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Schultasche",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Hausaufgabe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrradhelm",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Roller",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Skateboard",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Schlitten",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Rutsche",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Schaukel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Sandkasten",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Spielplatzbank",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fußballplatz",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Turnhalle",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Tierarzt",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Zahnbürste",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Zahnpasta",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Seifenblase",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wasserhahn",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Handtücher",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Badezimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Wohnzimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Schlafzimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Kinderzimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "rutschen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "schaukeln",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "rollen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "tauchen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "pflücken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "basteln",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "kleben",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schneiden",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "falten",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zählen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wiegen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ordnen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "packen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schieben",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ziehen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "drehen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "drücken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "klopfen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "winken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "lächeln",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "rufen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "pfeifen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "üben",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "erklären",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zeigen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "enden",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "dauern",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "hoffen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wünschen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "glauben",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "merken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "achten",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "teilen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "tauschen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "danken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "bitten",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "besuchen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "einladen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "feiern",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wählen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sparen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "trocknen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schmecken",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "riechen",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ängstlich",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "stolz",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "neugierig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "hilfsbereit",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "pünktlich",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ordentlich",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ganz",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "halb",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "doppelt",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "einfach",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schwierig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wichtig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "sicher",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "unsicher",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "glücklich",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "zufrieden",
+    "level": 2,
+    "type": "verb",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "hungrig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "durstig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "warmherzig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "lustig",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ernst",
+    "level": 2,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Abenteuer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Anfang",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Antwort",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ausflug",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bedeutung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beispiel",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bekanntschaft",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beobachtung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bericht",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beschreibung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Besuch",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bewegung",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bleistiftspitze",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Briefmarke",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bürgersteig",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Straßenbahn",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Süßigkeit",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "vergessen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verstehen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "bezahlen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "erzählen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "versuchen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verbessern",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verlieren",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "beginnen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gewinnen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schwimmen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "klettern",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "sammeln",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "flüstern",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zeichnen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "gießen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fließen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "beißen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "reißen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "schießen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "grüßen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "größer",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "süßer",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "heißer",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "weißer",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Fleiß",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Strauß",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "draußen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Preiselbeere",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst"
+    ]
+  },
+  {
+    "word": "Straßenecke",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Grußkarte",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fußweg",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Maßband",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schloss",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Flosse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nuss",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tasse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Klasse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wasserfall",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Aussicht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Aussprache",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Russland",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "wissen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "messen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "passen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "essen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "lassen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fassen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "vergiss",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Interesse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Adresse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kasse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Messe",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Presse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorsicht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "vielleicht",
+    "level": 3,
+    "type": "other",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "vierzig",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verreisen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Verein",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verkehr",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "verletzt",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verliebt",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Verstand",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorhang",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Vorrat",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorfahrt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Telefon",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Foto",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Familie",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ferienhaus",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Feuerzeug",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fensterbank",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Frühling",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "zeit"
+    ]
+  },
+  {
+    "word": "Frieden",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Friseur",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Fabrik",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "fähig",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fleißig",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fröhlich",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "freundlich",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "furchtbar",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fürchten",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "füllen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "fühlen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "führen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "füttern",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "frühstücken",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Verkäufer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Frühstücksei",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Straßenfest",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorlesung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrradweg",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Fußabdruck",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wasserstraße",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zielgerade",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Grießbrei",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stoßzeit",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kreuzung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorfeld",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vorkasse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "abfahren",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ankommen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "einsteigen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "aussteigen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "umsteigen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "mitnehmen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "abholen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zurückkommen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "wegfahren",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "vorbeigehen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "aufschließen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "abschließen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "einschalten",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "ausschalten",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "aufpassen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nachdenken",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "mitmachen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "vorlesen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "aufschreiben",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "nachschlagen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "erinnern",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "entscheiden",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verglichen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "beschreiben",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verbinden",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "trennen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "erkennen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "versprechen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "überlegen",
+    "level": 3,
+    "type": "verb",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verbessert",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "überrascht",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "verärgert",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "aufgeregt",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "enttäuscht",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "gefuehle"
+    ]
+  },
+  {
+    "word": "selbstständig",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "zuverlässig",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "höflich",
+    "level": 3,
+    "type": "adjective",
+    "themes": [
+      "alltag"
+    ]
+  },
+  {
+    "word": "Fußgänger",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrradfahrer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Autobahn",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Tankstelle",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Parkplatz",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Haltepunkt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Bahnsteig",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Abfahrt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Ankunft",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Reiseplan",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Kofferraum",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Reisetasche",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Sonnencreme",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Regenjacke",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wanderkarte",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kompass",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zeltplatz",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lagerfeuer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Picknick",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Spielstraße",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verkehrsampel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zebrastreifen",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Schutzhelm",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Warnweste",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rettungsweg",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Notausgang",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Feuerlöscher",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erste Hilfe",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arztpraxis",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Krankenwagen",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verbandkasten",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Pflaster",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Tablette",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rezeptfrei",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gespräch",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mitteilung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachricht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Auskunft",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einladung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geburtstagsfeier",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geschenkpapier",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kerzenlicht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Luftballon",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Überraschung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fotokamera",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erinnerung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Tagebuch",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Briefkasten",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Postkarte",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Paketdienst",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lieferung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unterschrift",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Absender",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Empfänger",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Straßenname",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hausnummer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wohnort",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Postleitzahl",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Landkarte",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Flussufer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Berggipfel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Tannenwald",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Laubbaum",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Blumenwiese",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Vogelnest",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Schmetterlingsflügel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bienestock",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Maulwurf",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "tiere"
+    ]
+  },
+  {
+    "word": "Meeresstrand",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Sandburg",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Muschelschale",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Leuchtturm",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Hafenstadt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Fischerboot",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Segelschiff",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Wellengang",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Strömung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Küstenweg",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Klassenzimmer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Schulhof",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Turnbeutel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Federmappe",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Bleistift",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Buntpapier",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Klebestift",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Arbeitsblatt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Wörterliste",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Lesebuch",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Mathematik",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Sachunterricht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Musikunterricht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Kunstunterricht",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Sportstunde",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Hausmeister",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Sekretariat",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schulleitung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Elternabend",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Zeugnis",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Frühstückspause",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Brotdose",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Trinkflasche",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Obstsalat",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vollkornbrot",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Käsescheibe",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gemüsesuppe",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Nudelsalat",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Reiskorn",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Haferflocken",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einkaufsliste",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kassenbon",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sonderangebot",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kühlregal",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gemüseabteilung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Backwaren",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Frischkäse",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Apfelsaft",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mineralwasser",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Teebeutel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Esszimmer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arbeitszimmer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Waschbecken",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Küchenregal",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kühlschrank",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Gefrierschrank",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Backofen",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Mikrowelle",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Waschmaschine",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "haus"
+    ]
+  },
+  {
+    "word": "Staubsauger",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bügelbrett",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wäscheständer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mülltonne",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Papiertonne",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Glascontainer",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Recyclinghof",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stromkabel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Steckdose",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Absprache",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Anmeldung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Anreise",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Aufenthalt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ausnahme",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Austausch",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bedienung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Begründung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Behandlung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bekleidung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beratung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Bereitschaft",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beschreibungstext",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bestätigung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beteiligung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beurteilung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Durchsage",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einrichtung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einstellung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Empfehlung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Entdeckung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Entspannung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erlaubnis",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ermäßigung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ernährung",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ersatzteil",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rechtschreibung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Aufmerksamkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Verantwortung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Gemeinschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Nachbarschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Freundschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Wissenschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Gesellschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Umwelt",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachhaltigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Erfindung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Entscheidung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Erfahrung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Möglichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Schwierigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Unterschied",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Zusammenarbeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Zuverlässigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Pünktlichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Höflichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Geschwindigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Sicherheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Gesundheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Krankheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Erkältung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Apotheke",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Medikament",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Untersuchung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "koerper"
+    ]
+  },
+  {
+    "word": "Krankenversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Terminvereinbarung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Bewerbung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Lebenslauf",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Ausbildung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Arbeitsplatz",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Besprechung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Kollegin",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Arbeitszeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Feierabend",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Mittagspause",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Gehalt",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Rechnung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Quittung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einkaufszentrum",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Supermarkt",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Lebensmittel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Gemüse",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gemuese"
+    ]
+  },
+  {
+    "word": "Getränk",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Frühstücksbuffet",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rezept",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "Zubereitung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "essen"
+    ]
+  },
+  {
+    "word": "öffentlicher Verkehr",
+    "level": 4,
+    "type": "adjective",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Haltestelle",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Fahrplan",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Verspätung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Anschluss",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Reisepass",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Unterkunft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Übernachtung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Sehenswürdigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Landschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Wettervorhersage",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Temperatur",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Niederschlag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Gewitter",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Überschwemmung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "natur"
+    ]
+  },
+  {
+    "word": "Straßenverkehr",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Führerschein",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Verkehrszeichen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Geschäftsführer",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "berufe"
+    ]
+  },
+  {
+    "word": "Bürogebäude",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Computerprogramm",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Passwort",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Benutzername",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Internetseite",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachrichtendienst",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fernsehsendung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zeitungsartikel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Überschrift",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Abschlussprüfung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Sprachkurs",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Wörterbuch",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Aussprache",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rechtschreibregel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Übungsaufgabe",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Fehlermeldung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verbesserungsvorschlag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rücksichtnahme",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Selbstständigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verständnis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "abstrakt"
+    ]
+  },
+  {
+    "word": "Zufriedenheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verantwortungsbewusstsein",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zusammengehörigkeitsgefühl",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gleichberechtigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Berufserfahrung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Aufgabengebiet",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Weiterbildung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Verkehrsverbindung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "reise"
+    ]
+  },
+  {
+    "word": "Wohnungsanzeige",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stellenangebot",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Auseinandersetzung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beeinträchtigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Berücksichtigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Beschäftigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bevölkerung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bewusstseinsbildung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Durchführbarkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Eigenverantwortung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einverständnis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Entwicklungsmöglichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erleichterung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erwartungshaltung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fachkenntnis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fortschritt",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fragestellung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gedankenfreiheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gegenargument",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gegenseitigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Glaubwürdigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Grundvoraussetzung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Handlungsfähigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Herausforderung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Identitätsnachweis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Informationsquelle",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Interessenvertretung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kommunikationsfähigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Konfliktlösung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kreativität",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kulturangebot",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lebensqualität",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Leistungsbereitschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lernbereitschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Meinungsfreiheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mietvertrag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mitarbeitergespräch",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachweisführung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Notwendigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nutzerfreundlichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Öffentlichkeitsarbeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Organisationsfähigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Partnerschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Persönlichkeitsentwicklung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Pflichtbewusstsein",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Planungssicherheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Problemlösung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Qualitätskontrolle",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rücksichtslosigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schlüsselqualifikation",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Selbsteinschätzung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sorgfaltspflicht",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sozialversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sprachkenntnisse",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stellungnahme",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Streitkultur",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Teamfähigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Teilnahmebestätigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Übereinstimmung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unabhängigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unfallversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unternehmensführung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Urlaubsantrag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verantwortungsbereich",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verbraucherschutz",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vereinbarkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verlässlichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vermittlung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verpflichtung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Versicherungsnummer",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vertrauenswürdigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verwaltungsaufwand",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Voraussetzung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wahlmöglichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Weiterentwicklung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wertschätzung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Widerspruchsrecht",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wirtschaftlichkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wissensvermittlung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wohnberechtigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zahlungsaufforderung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zielvereinbarung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arbeitsbedingungen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Arbeitsunfähigkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Ausbildungsplatz",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Ausnahmegenehmigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bankverbindung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Betriebsanleitung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bewerbungsunterlagen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bildungseinrichtung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Datenschutzerklärung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Dienstleistungsangebot",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Energieversorgung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Entscheidungsprozess",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erreichbarkeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fachhochschule",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrtkostenerstattung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Familienangehörige",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Finanzierungsplan",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Führungszeugnis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geschäftsbedingungen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gesundheitsvorsorge",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Handlungsanweisung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Haushaltsversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Immobilienanzeige",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Informationsveranstaltung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Instandhaltung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Internetverbindung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Jahresabrechnung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kindertagesstätte",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kommunikationsmittel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kostenerstattung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kündigungsfrist",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lebensgemeinschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lebenshaltungskosten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lieferbedingungen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mietnebenkosten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mobilfunkvertrag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachbarschaftshilfe",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nutzungsbedingungen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Onlinebestellung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Personalausweis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Probezeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Qualitätsstandard",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rechtsgrundlage",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Reiseversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rentenversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Risikobewertung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sicherheitsvorschrift",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Softwareaktualisierung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Steuererklärung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stromrechnung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Teilzeitbeschäftigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Telefonverbindung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Terminkalender",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Umweltschutzmaßnahme",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unfallmeldung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unterhaltskosten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Urlaubsvertretung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verbrauchsmaterial",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verkehrsmittel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vertragsbedingungen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verwaltungsgebühr",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Vollzeitstelle",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wartungsarbeiten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Weiterbildungsangebot",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wohnraummiete",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zahlungsfrist",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zugangsdaten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zusatzversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zustellungsadresse",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Zwischenbescheid",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Anerkennungsverfahren",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arbeitserlaubnis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Aufenthaltstitel",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ausländerbehörde",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Berufsqualifikation",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einbürgerung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Familiennachzug",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Führungsposition",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gesundheitswesen",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Integrationskurs",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Jobcenter",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Krankenpflege",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Meldebescheinigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Mietkaution",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nachhilfeunterricht",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Praktikumsplatz",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Qualifizierungsmaßnahme",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schulabschluss",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Sozialleistung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sprachprüfung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Stellenbeschreibung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Teilzeitarbeit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Unterrichtsmaterial",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "schule"
+    ]
+  },
+  {
+    "word": "Visumantrag",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Wohnsitzanmeldung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arbeitnehmerrechte",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bewerbungsgespräch",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Chancengleichheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Datensicherheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Energiekosten",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erziehungsurlaub",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fortbildungsmaßnahme",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Gesetzesänderung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Haftpflichtversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Informationssicherheit",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Konfliktbewältigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kundenbetreuung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lebensversicherung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Medienkompetenz",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nutzungsrecht",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Arbeitsgemeinschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Auftragsbestätigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ausbildungsnachweis",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Benachrichtigung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Datenschutzbestimmung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Entwicklungsprozess",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Geschäftsbeziehung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kooperationspartner",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Kundenservice",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Lieferanschrift",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nutzungsvereinbarung",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Anwendungsbereich",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Bereitstellungsprozess",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Datenaustausch",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Einsatzbereitschaft",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Koordinationsaufwand",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Nutzungsanalyse",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Planungsgrundlage",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Rückmeldungsschleife",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Sicherheitsstandard",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Verfahrensweise",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Erdbeere",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Himbeere",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Brombeere",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kirsche",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Pflaume",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Ananas",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kiwi",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Aprikose",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Mandarine",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Grapefruit",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Johannisbeere",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Stachelbeere",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Nektarine",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Granatapfel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Wassermelone",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kokosnuss",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Limette",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "essen"
+    ]
+  },
+  {
+    "word": "Birnbaum",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "obst",
+      "natur"
+    ]
+  },
+  {
+    "word": "Paprika",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Salat",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kartoffel",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kürbis",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Spinat",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Brokkoli",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Blumenkohl",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Zucchini",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Aubergine",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Radieschen",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Kohlrabi",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Lauch",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Knoblauch",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Sellerie",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Spargel",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Pilz",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "natur"
+    ]
+  },
+  {
+    "word": "Champignon",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Mais",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gemuese",
+      "essen"
+    ]
+  },
+  {
+    "word": "Polizist",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Feuerwehrmann",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Koch",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Verkäuferin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Mechaniker",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Ingenieur",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Architekt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Friseurin",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Krankenschwester",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Krankenpfleger",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Pilot",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "reise"
+    ]
+  },
+  {
+    "word": "Kellner",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Landwirt",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Programmierer",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Journalist",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Elektriker",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Handwerker",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "berufe",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Basketball",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Volleyball",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Handball",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Eishockey",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Skifahren",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Snowboarden",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Radfahren",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport",
+      "reise"
+    ]
+  },
+  {
+    "word": "Judo",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Turnen",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Leichtathletik",
+    "level": 4,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Schwimmer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport",
+      "berufe"
+    ]
+  },
+  {
+    "word": "Mannschaft",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Training",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Wettkampf",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Medaille",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Torwart",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Spieler",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "sport"
+    ]
+  },
+  {
+    "word": "Schiedsrichter",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "sport",
+      "berufe"
+    ]
+  },
+  {
+    "word": "Schere",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "schule"
+    ]
+  },
+  {
+    "word": "Kleber",
+    "level": 1,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "schule"
+    ]
+  },
+  {
+    "word": "Computer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Tastatur",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Bildschirm",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Drucker",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Kopfhörer",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Ladegerät",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schlüsselbund",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "haus"
+    ]
+  },
+  {
+    "word": "Werkzeug",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "arbeit"
+    ]
+  },
+  {
+    "word": "Zange",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Schraube",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Regenschirm",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Taschenlampe",
+    "level": 2,
+    "type": "noun",
+    "themes": [
+      "gegenstaende"
+    ]
+  },
+  {
+    "word": "Fahrradschloss",
+    "level": 3,
+    "type": "noun",
+    "themes": [
+      "gegenstaende",
+      "reise"
+    ]
+  }
+]

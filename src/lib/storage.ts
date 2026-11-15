@@ -83,12 +83,28 @@ function sanitizeList(value: unknown): WordList | null {
 
   const now = new Date().toISOString()
 
+  const level =
+    value.level === 1 || value.level === 2 || value.level === 3 || value.level === 4
+      ? value.level
+      : undefined
+  const source =
+    value.source === 'starter' || value.source === 'curated' || value.source === 'custom'
+      ? value.source
+      : undefined
+  const description =
+    typeof value.description === 'string' && value.description.trim()
+      ? value.description.trim()
+      : undefined
+
   return {
     id: typeof value.id === 'string' && value.id ? value.id : createId(),
     name,
     words,
     createdAt: typeof value.createdAt === 'string' ? value.createdAt : now,
     updatedAt: typeof value.updatedAt === 'string' ? value.updatedAt : now,
+    ...(description ? { description } : {}),
+    ...(level ? { level } : {}),
+    ...(source ? { source } : {}),
   }
 }
 

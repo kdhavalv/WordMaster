@@ -1,7 +1,13 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Mascot } from '../components/Mascot'
-import { STARTER_LIST } from '../data/starterWords'
+import {
+  CURATED_TEXT_KEYS,
+  LEVEL_PACKS,
+  STARTER_LIST_ID,
+  THEME_PACKS,
+  TYPE_PACKS,
+} from '../data/wordBank'
 import { useI18n, usePageTitle } from '../i18n'
 import { sampleWords } from '../lib/words'
 import { useAppState } from '../state/appContext'
@@ -12,19 +18,22 @@ export function HomePage() {
   const { t, plural, formatDate, formatNumber, formatPercent } = useI18n()
   const navigate = useNavigate()
   usePageTitle(t('meta.homeTitle'))
-  const lists = [STARTER_LIST, ...state.lists]
-  const [selectedId, setSelectedId] = useState(STARTER_LIST.id)
+  const curatedIdSet = new Set([...LEVEL_PACKS, ...THEME_PACKS, ...TYPE_PACKS].map((list) => list.id))
+  const customLists = state.lists.filter((list) => !curatedIdSet.has(list.id))
+  const allLists = [...LEVEL_PACKS, ...THEME_PACKS, ...TYPE_PACKS, ...customLists]
+  const [selectedId, setSelectedId] = useState(STARTER_LIST_ID)
   const [wordCount, setWordCount] = useState(state.settings.defaultWordCount)
   const [shouldShuffle, setShouldShuffle] = useState(state.settings.shuffle)
 
-  const selectedList = lists.find((list) => list.id === selectedId) ?? STARTER_LIST
+  const selectedList = allLists.find((list) => list.id === selectedId) ?? LEVEL_PACKS[1]
   const availableWords = selectedList.words.length
   const effectiveCount = Math.min(wordCount, availableWords)
   const canStart = availableWords > 0
   const recentResults = state.results.slice(0, 8)
 
   function displayName(list: WordList): string {
-    return list.id === STARTER_LIST.id ? t('starter.name') : list.name
+    const keys = CURATED_TEXT_KEYS[list.id]
+    return keys ? t(keys.name as never) : list.name
   }
 
   function listOption(list: WordList): string {
@@ -88,6 +97,7 @@ export function HomePage() {
             <h2 id="start-heading">{t('home.startHeading')}</h2>
           </div>
           <span className="badge badge--soft">
+            {selectedList.level ? `${t('common.level', { level: String(selectedList.level) })} · ` : ''}
             {plural(
               availableWords,
               'common.wordsInListOne',
@@ -104,12 +114,36 @@ export function HomePage() {
               value={selectedList.id}
               onChange={(event) => setSelectedId(event.target.value)}
             >
-              <option value={STARTER_LIST.id}>{listOption(STARTER_LIST)}</option>
-              {state.lists.map((list) => (
-                <option key={list.id} value={list.id}>
-                  {listOption(list)}
-                </option>
-              ))}
+              <optgroup label={t('home.category.levels' as never)}>
+                {LEVEL_PACKS.map((list) => (
+                  <option key={list.id} value={list.id}>
+                    {listOption(list)}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label={t('home.category.themes' as never)}>
+                {THEME_PACKS.map((list) => (
+                  <option key={list.id} value={list.id}>
+                    {listOption(list)}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label={t('home.category.types' as never)}>
+                {TYPE_PACKS.map((list) => (
+                  <option key={list.id} value={list.id}>
+                    {listOption(list)}
+                  </option>
+                ))}
+              </optgroup>
+              {customLists.length > 0 && (
+                <optgroup label={t('home.category.custom' as never)}>
+                  {customLists.map((list) => (
+                    <option key={list.id} value={list.id}>
+                      {listOption(list)}
+                    </option>
+                  ))}
+                </optgroup>
+              )}
             </select>
           </label>
 
@@ -206,8 +240,8 @@ export function HomePage() {
                 <li key={result.id} className="result-row">
                   <div className="result-row__main">
                     <strong>
-                      {result.listId === STARTER_LIST.id
-                        ? t('starter.name')
+                      {CURATED_TEXT_KEYS[result.listId]
+                        ? t(CURATED_TEXT_KEYS[result.listId].name as never)
                         : result.listName}
                     </strong>
                     <span className="result-row__meta">

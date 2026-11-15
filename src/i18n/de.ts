@@ -1,7 +1,7 @@
 export const de = {
   'app.title': 'Wortmeister – Diktat-Trainer',
   'app.description':
-    'Wortmeister ist ein Diktat-Trainer für Grundschulkinder. Wörter anhören, auf Papier schreiben und gemeinsam prüfen.',
+    'Wortmeister ist ein Diktat-Trainer. Wörter anhören, auf Papier schreiben und gemeinsam prüfen.',
   'app.name': 'Wortmeister',
   'app.tagline': 'Diktat-Trainer',
   'meta.homeTitle': 'Wortmeister – Startseite',
@@ -39,6 +39,7 @@ export const de = {
   'common.wordsInOptionOne': '{name} – {count} Wort',
   'common.marked': '{marked}/{total} markiert',
   'common.language': 'Sprache',
+  'common.level': 'Level {level}',
   'locale.de': 'Deutsch',
   'locale.en': 'English',
 
@@ -54,13 +55,14 @@ export const de = {
   'update.available': 'Eine neue Version von Wortmeister ist verfügbar.',
   'update.reload': 'Jetzt aktualisieren',
 
-  'home.eyebrow': 'Für die 4. Klasse',
+  'home.eyebrow': 'Deutsch üben',
   'home.title': 'Wörter hören. Auf Papier schreiben. Gemeinsam prüfen.',
   'home.text':
-    'Wortmeister liest die Wörter laut vor. Dein Kind schreibt sie auf Papier, du deckst die richtige Schreibweise auf und markierst, ob es geklappt hat.',
+    'Wortmeister liest Wörter laut vor. Schreibe sie auf Papier, decke die richtige Schreibweise auf und markiere, ob es geklappt hat.',
   'home.startEyebrow': 'Los geht’s',
   'home.startHeading': 'Neue Runde starten',
   'home.listLabel': 'Wortliste',
+  'home.levelLabel': 'Level',
   'home.wordCount': 'Anzahl der Wörter',
   'home.shuffle': 'Wörter mischen',
   'home.limitNoticeOne':
@@ -79,16 +81,54 @@ export const de = {
   'home.results.heading': 'Letzte Ergebnisse',
   'home.results.empty': 'Noch keine Ergebnisse. Starte die erste Übung oder Prüfung.',
 
-  'starter.name': 'Grundwortschatz Klasse 4 (Beispiel)',
+  'curated.eyebrow': 'Vorgefertigte Listen',
+  'curated.heading': 'Wortlisten nach Level, Thema und Wortart',
+  'curated.text':
+    '1296 Wörter in 4 Levels, zusätzlich nach Thema und Wortart kategorisiert. Ohne externe Wortlisten, intern kuratiert.',
+  'home.category': 'Kategorie',
+  'home.category.levels': 'Level',
+  'home.category.themes': 'Themen',
+  'home.category.types': 'Wortarten',
+  'home.category.custom': 'Eigene Listen',
+  'starter.name': 'Grundwortschatz (Level 2)',
   'starter.description':
-    'Häufige Wörter mit schwierigen Stellen: Dehnungs-h, Doppelkonsonanten, ä/äu, s/ss/ß, v/f und Auslaut d/t.',
+    'Häufige Wörter mit typischen Rechtschreibstellen: Dehnung, Doppelkonsonanten, Umlaute, s/ss/ß, v/f und Auslaut.',
   'starter.template': 'Vorlage',
   'starter.copy': 'Kopie bearbeiten',
+  'curated.level1.name': 'Level 1 – Einstieg',
+  'curated.level1.description': 'Kurze, konkrete Wörter mit regelmäßiger Schreibweise.',
+  'curated.level3.name': 'Level 3 – Aufbau',
+  'curated.level3.description': 'Wörter mit Dehnung, s/ss/ß, v/f und häufigen Wortbausteinen.',
+  'curated.level4.name': 'Level 4 – Vertiefung',
+  'curated.level4.description': 'Längere Wörter, Komposita und anspruchsvollere Schreibweisen.',
+
+  'theme.alltag': 'Alltag',
+  'theme.haus': 'Haus & Wohnen',
+  'theme.essen': 'Essen & Trinken',
+  'theme.obst': 'Obst',
+  'theme.gemuese': 'Gemüse',
+  'theme.natur': 'Natur & Wetter',
+  'theme.tiere': 'Tiere',
+  'theme.koerper': 'Körper & Gesundheit',
+  'theme.schule': 'Schule & Lernen',
+  'theme.arbeit': 'Arbeit & Büro',
+  'theme.berufe': 'Berufe',
+  'theme.sport': 'Sport & Bewegung',
+  'theme.reise': 'Reisen & Verkehr',
+  'theme.zeit': 'Zeit',
+  'theme.gefuehle': 'Gefühle',
+  'theme.gegenstaende': 'Gegenstände',
+  'theme.abstrakt': 'Abstrakte Begriffe',
+
+  'type.noun': 'Nomen',
+  'type.verb': 'Verben',
+  'type.adjective': 'Adjektive',
+  'type.other': 'Andere Wörter',
 
   'lists.eyebrow': 'Wortlisten',
   'lists.title': 'Deine Wörter',
   'lists.text':
-    'Lege eigene Listen an, bearbeite sie oder nutze die Beispiel-Liste als Ausgangspunkt.',
+    'Lege eigene Listen an, bearbeite sie oder nutze eine vorgefertigte Liste als Ausgangspunkt.',
   'lists.new': 'Neue Liste',
   'lists.deleted': 'Liste gelöscht.',
   'lists.importEmpty': 'In der Datei wurden keine gültigen Listen gefunden.',
@@ -165,7 +205,7 @@ export const de = {
   'settings.results.clearConfirm': 'Ergebnisverlauf wirklich löschen?',
   'settings.results.cleared': 'Ergebnisverlauf gelöscht.',
   'settings.reset.confirm':
-    'Wirklich alle Listen, Ergebnisse und Einstellungen löschen? Die Beispiel-Liste bleibt erhalten.',
+    'Wirklich alle Listen, Ergebnisse und Einstellungen löschen? Die vorgefertigten Listen bleiben erhalten.',
   'settings.reset.done': 'Alle Daten wurden zurückgesetzt.',
 
   'session.exit': 'Beenden',

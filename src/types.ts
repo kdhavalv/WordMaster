@@ -8,6 +8,9 @@ export type WordList = {
   words: string[]
   createdAt: string
   updatedAt: string
+  description?: string
+  level?: 1 | 2 | 3 | 4
+  source?: 'starter' | 'curated' | 'custom'
 }
 
 export type SessionResult = {
