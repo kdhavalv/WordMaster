@@ -1,7 +1,9 @@
+import { useI18n } from '../i18n'
+
 export function AudioButton({
   onClick,
   speaking,
-  label = 'Wort anhören',
+  label,
   disabled = false,
 }: {
   onClick: () => void
@@ -9,13 +11,16 @@ export function AudioButton({
   label?: string
   disabled?: boolean
 }) {
+  const { t } = useI18n()
+  const labelText = label ?? t('session.audioListen')
+
   return (
     <button
       type="button"
       className={`audio-button${speaking ? ' is-speaking' : ''}`}
       onClick={onClick}
       disabled={disabled}
-      aria-label={label}
+      aria-label={labelText}
     >
       <svg
         viewBox="0 0 24 24"
@@ -30,7 +35,7 @@ export function AudioButton({
         <path d="M15.5 8.5a5 5 0 0 1 0 7" />
         <path d="M18.5 5.5a9 9 0 0 1 0 13" />
       </svg>
-      <span className="audio-button__label">{label}</span>
+      <span className="audio-button__label">{labelText}</span>
     </button>
   )
 }

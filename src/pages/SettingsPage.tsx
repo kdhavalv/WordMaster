@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import type { ChangeEvent } from 'react'
 import { useSpeech } from '../hooks/useSpeech'
+import { useI18n, usePageTitle } from '../i18n'
 import { createBackup, parseBackup } from '../lib/backup'
 import { downloadJson, readJsonFile } from '../lib/files'
 import { useAppState } from '../state/appContext'
@@ -11,9 +12,15 @@ type Message = {
   text: string
 }
 
+function clampRate(rate: number): number {
+  return Math.min(1.2, Math.max(0.6, Math.round(rate * 100) / 100))
+}
+
 export function SettingsPage() {
   const { state, dispatch } = useAppState()
+  const { locale, setLocale, t, formatNumber } = useI18n()
   const speech = useSpeech(state.settings.voiceURI, state.settings.rate)
+  usePageTitle(t('meta.settingsTitle'))
   const backupInputRef = useRef<HTMLInputElement>(null)
   const [message, setMessage] = useState<Message | null>(null)
 
@@ -22,8 +29,22 @@ export function SettingsPage() {
   )
     ? state.settings.voiceURI ?? ''
     : ''
-  const rateLabel = state.settings.rate.toFixed(2).replace('.', ',')
+  const rateLabel = formatNumber(state.settings.rate, {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })
+  const rateStep = formatNumber(0.05, {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })
   const hasGermanVoice = speech.germanVoices.length > 0
+  const speechErrorMessage = speech.error
+    ? t(
+        speech.error === 'unsupported'
+          ? 'settings.speech.errorUnsupported'
+          : 'settings.speech.errorFailed',
+      )
+    : null
 
   function updateSettings(patch: Partial<Settings>) {
     dispatch({ type: 'updateSettings', settings: patch })
@@ -36,7 +57,7 @@ export function SettingsPage() {
       `wortmeister-backup-${today}.json`,
       createBackup(state.lists, state.results, state.settings),
     )
-    setMessage({ tone: 'info', text: 'Backup wurde erstellt.' })
+    setMessage({ tone: 'info', text: t('settings.backup.created') })
   }
 
   async function importBackup(event: ChangeEvent<HTMLInputElement>) {
@@ -52,13 +73,11 @@ export function SettingsPage() {
       const backup = parseBackup(data)
 
       if (!backup) {
-        setMessage({ tone: 'error', text: 'Die Datei ist kein gültiges Wortmeister-Backup.' })
+        setMessage({ tone: 'error', text: t('settings.backup.invalid') })
         return
       }
 
-      const confirmed = window.confirm(
-        'Backup importieren? Die aktuellen Listen, Ergebnisse und Einstellungen werden ersetzt.',
-      )
+      const confirmed = window.confirm(t('settings.backup.confirm'))
 
       if (!confirmed) {
         return
@@ -72,27 +91,23 @@ export function SettingsPage() {
           settings: backup.settings,
         },
       })
-      setMessage({ tone: 'info', text: 'Backup wurde wiederhergestellt.' })
+      setMessage({ tone: 'info', text: t('settings.backup.restored') })
     } catch {
-      setMessage({ tone: 'error', text: 'Die Datei konnte nicht gelesen werden.' })
+      setMessage({ tone: 'error', text: t('settings.backup.readError') })
     }
   }
 
   function clearResults() {
-    if (window.confirm('Ergebnisverlauf wirklich löschen?')) {
+    if (window.confirm(t('settings.results.clearConfirm'))) {
       dispatch({ type: 'clearResults' })
-      setMessage({ tone: 'info', text: 'Ergebnisverlauf gelöscht.' })
+      setMessage({ tone: 'info', text: t('settings.results.cleared') })
     }
   }
 
   function resetData() {
-    if (
-      window.confirm(
-        'Wirklich alle Listen, Ergebnisse und Einstellungen löschen? Die Beispiel-Liste bleibt erhalten.',
-      )
-    ) {
+    if (window.confirm(t('settings.reset.confirm'))) {
       dispatch({ type: 'resetData' })
-      setMessage({ tone: 'info', text: 'Alle Daten wurden zurückgesetzt.' })
+      setMessage({ tone: 'info', text: t('settings.reset.done') })
     }
   }
 
@@ -100,11 +115,9 @@ export function SettingsPage() {
     <div className="page page--narrow">
       <div className="page-heading">
         <div>
-          <p className="eyebrow">Einstellungen</p>
-          <h1>So soll Wortmeister klingen</h1>
-          <p className="page-heading__text">
-            Änderungen werden sofort gespeichert und bleiben auf diesem Gerät.
-          </p>
+          <p className="eyebrow">{t('settings.eyebrow')}</p>
+          <h1>{t('settings.title')}</h1>
+          <p className="page-heading__text">{t('settings.text')}</p>
         </div>
       </div>
 
@@ -117,37 +130,62 @@ export function SettingsPage() {
         </p>
       )}
 
+      <section className="panel" aria-labelledby="language-heading">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">{t('settings.language.eyebrow')}</p>
+            <h2 id="language-heading">{t('settings.language.heading')}</h2>
+          </div>
+        </div>
+
+        <label className="field">
+          <span id="language-label">{t('settings.language.label')}</span>
+          <select
+            value={locale}
+            aria-labelledby="language-label"
+            aria-describedby="language-hint"
+            onChange={(event) =>
+              setLocale(event.target.value === 'en' ? 'en' : 'de')
+            }
+          >
+            <option value="de">{t('locale.de')}</option>
+            <option value="en">{t('locale.en')}</option>
+          </select>
+          <span className="field__hint" id="language-hint">
+            {t('settings.language.hint')}
+          </span>
+        </label>
+      </section>
+
       <section className="panel" aria-labelledby="speech-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Sprachausgabe</p>
-            <h2 id="speech-heading">Stimme</h2>
+            <p className="eyebrow">{t('settings.speech.eyebrow')}</p>
+            <h2 id="speech-heading">{t('settings.speech.heading')}</h2>
           </div>
         </div>
 
         {!speech.supported && (
           <p className="notice notice--error" role="alert">
-            Dieser Browser unterstützt keine Sprachausgabe. Das Aufdecken und Markieren
-            funktioniert trotzdem.
+            {t('settings.speech.unsupported')}
           </p>
         )}
 
         {speech.supported && !hasGermanVoice && (
           <p className="notice notice--warning" role="alert">
-            Keine deutsche Stimme gefunden. Installiere eine deutsche Stimme in den
-            Systemeinstellungen oder nutze einen Browser mit deutscher Sprachausgabe.
+            {t('settings.speech.noVoice')}
           </p>
         )}
 
-        {speech.error && (
+        {speechErrorMessage && (
           <p className="notice notice--error" role="alert">
-            {speech.error}
+            {speechErrorMessage}
           </p>
         )}
 
         <div className="form-stack">
           <label className="field">
-            <span>Deutsche Stimme</span>
+            <span>{t('settings.speech.voiceLabel')}</span>
             <select
               value={selectedVoiceURI}
               onChange={(event) =>
@@ -155,7 +193,7 @@ export function SettingsPage() {
               }
               disabled={!speech.supported || !hasGermanVoice}
             >
-              <option value="">Automatisch</option>
+              <option value="">{t('settings.speech.auto')}</option>
               {speech.germanVoices.map((voice) => (
                 <option key={voice.voiceURI} value={voice.voiceURI}>
                   {voice.name} ({voice.lang})
@@ -164,20 +202,47 @@ export function SettingsPage() {
             </select>
           </label>
 
-          <label className="field">
-            <span>
-              Sprechgeschwindigkeit <strong>{rateLabel}×</strong>
+          <div className="field">
+            <span id="rate-label">
+              {t('settings.speech.rate')} <strong>{rateLabel}×</strong>
             </span>
-            <input
-              type="range"
-              min={0.6}
-              max={1.2}
-              step={0.05}
-              value={state.settings.rate}
-              onChange={(event) => updateSettings({ rate: Number(event.target.value) })}
-            />
-            <span className="field__hint">Langsamer links, schneller rechts.</span>
-          </label>
+            <div className="rate-control" role="group" aria-labelledby="rate-label">
+              <button
+                type="button"
+                className="btn btn--secondary btn--small"
+                onClick={() =>
+                  updateSettings({ rate: clampRate(state.settings.rate - 0.05) })
+                }
+                disabled={state.settings.rate <= 0.6}
+                aria-label={`${t('settings.speech.rate')} −${rateStep}`}
+              >
+                −
+              </button>
+              <input
+                type="range"
+                min={0.6}
+                max={1.2}
+                step={0.05}
+                value={state.settings.rate}
+                aria-labelledby="rate-label"
+                onChange={(event) =>
+                  updateSettings({ rate: clampRate(Number(event.target.value)) })
+                }
+              />
+              <button
+                type="button"
+                className="btn btn--secondary btn--small"
+                onClick={() =>
+                  updateSettings({ rate: clampRate(state.settings.rate + 0.05) })
+                }
+                disabled={state.settings.rate >= 1.2}
+                aria-label={`${t('settings.speech.rate')} +${rateStep}`}
+              >
+                +
+              </button>
+            </div>
+            <span className="field__hint">{t('settings.speech.rateHint')}</span>
+          </div>
 
           <div className="inline-actions">
             <button
@@ -186,7 +251,7 @@ export function SettingsPage() {
               onClick={speech.test}
               disabled={!speech.supported}
             >
-              {speech.speaking ? 'Wird abgespielt …' : 'Stimme testen'}
+              {speech.speaking ? t('settings.speech.testing') : t('settings.speech.test')}
             </button>
           </div>
 
@@ -194,9 +259,11 @@ export function SettingsPage() {
             <input
               type="checkbox"
               checked={state.settings.autoPlay}
-              onChange={(event) => updateSettings({ autoPlay: event.target.checked })}
+              onChange={(event) =>
+                updateSettings({ autoPlay: event.target.checked })
+              }
             />
-            <span>Nächstes Wort automatisch abspielen</span>
+            <span>{t('settings.speech.autoPlay')}</span>
           </label>
         </div>
       </section>
@@ -204,14 +271,14 @@ export function SettingsPage() {
       <section className="panel" aria-labelledby="defaults-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Voreinstellungen</p>
-            <h2 id="defaults-heading">Neue Runden</h2>
+            <p className="eyebrow">{t('settings.defaults.eyebrow')}</p>
+            <h2 id="defaults-heading">{t('settings.defaults.heading')}</h2>
           </div>
         </div>
 
         <div className="form-stack">
           <label className="field">
-            <span>Wörter pro Runde</span>
+            <span>{t('settings.defaults.wordCount')}</span>
             <input
               type="number"
               min={1}
@@ -234,7 +301,7 @@ export function SettingsPage() {
               checked={state.settings.shuffle}
               onChange={(event) => updateSettings({ shuffle: event.target.checked })}
             />
-            <span>Wörter standardmäßig mischen</span>
+            <span>{t('settings.defaults.shuffle')}</span>
           </label>
         </div>
       </section>
@@ -242,31 +309,30 @@ export function SettingsPage() {
       <section className="panel" aria-labelledby="data-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Daten</p>
-            <h2 id="data-heading">Sichern und zurücksetzen</h2>
+            <p className="eyebrow">{t('settings.data.eyebrow')}</p>
+            <h2 id="data-heading">{t('settings.data.heading')}</h2>
           </div>
         </div>
-        <p className="muted">
-          Alles bleibt in diesem Browser gespeichert. Ein Backup enthält deine Listen,
-          Ergebnisse und Einstellungen.
-        </p>
+        <p className="muted">{t('settings.data.text')}</p>
 
         <div className="inline-actions inline-actions--wrap">
           <button type="button" className="btn btn--secondary" onClick={exportBackup}>
-            Backup exportieren
+            {t('settings.data.export')}
           </button>
           <button
             type="button"
             className="btn btn--secondary"
             onClick={() => backupInputRef.current?.click()}
           >
-            Backup importieren
+            {t('settings.data.import')}
           </button>
           <input
             ref={backupInputRef}
             type="file"
             accept="application/json,.json"
             className="visually-hidden"
+            aria-label={t('settings.data.import')}
+            tabIndex={-1}
             onChange={importBackup}
           />
           <button
@@ -275,14 +341,14 @@ export function SettingsPage() {
             onClick={clearResults}
             disabled={state.results.length === 0}
           >
-            Ergebnisverlauf löschen
+            {t('settings.data.clearResults')}
           </button>
           <button
             type="button"
             className="btn btn--ghost btn--danger-text"
             onClick={resetData}
           >
-            Alle Daten zurücksetzen
+            {t('settings.data.reset')}
           </button>
         </div>
       </section>

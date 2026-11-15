@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
+export type SpeechError = 'unsupported' | 'failed'
+
 export function useSpeech(voiceURI: string | undefined, rate: number) {
   const supported =
     typeof window !== 'undefined' &&
@@ -7,7 +9,7 @@ export function useSpeech(voiceURI: string | undefined, rate: number) {
     'SpeechSynthesisUtterance' in window
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
   const [speaking, setSpeaking] = useState(false)
-  const [error, setError] = useState<string | null>(null)
+  const [error, setError] = useState<SpeechError | null>(null)
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null)
   const timerRef = useRef<number | null>(null)
 
@@ -49,7 +51,7 @@ export function useSpeech(voiceURI: string | undefined, rate: number) {
   const speak = useCallback(
     (text: string) => {
       if (!supported) {
-        setError('Dieser Browser unterstützt keine Sprachausgabe.')
+        setError('unsupported')
         return
       }
 
@@ -88,7 +90,7 @@ export function useSpeech(voiceURI: string | undefined, rate: number) {
 
         setSpeaking(false)
         utteranceRef.current = null
-        setError('Die Sprachausgabe ist fehlgeschlagen.')
+        setError('failed')
       }
 
       utteranceRef.current = utterance

@@ -1,8 +1,10 @@
 ﻿import { useEffect, useRef, useState } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import { AudioButton } from '../components/AudioButton'
+import { Mascot } from '../components/Mascot'
 import { ProgressBar } from '../components/ProgressBar'
 import { useSpeech } from '../hooks/useSpeech'
+import { useI18n, usePageTitle } from '../i18n'
 import { createSessionResult } from '../lib/session'
 import { sampleWords } from '../lib/words'
 import { useAppState } from '../state/appContext'
@@ -39,7 +41,8 @@ export function SessionPage() {
     Array.isArray(config.allWords) &&
     config.words.length > 0 &&
     config.allWords.length > 0 &&
-    (config.mode === 'practice' || config.mode === 'exam')
+    (config.mode === 'practice' || config.mode === 'exam') &&
+    typeof config.shuffle === 'boolean'
 
   if (!isValid) {
     return <Navigate to="/" replace />
@@ -52,15 +55,28 @@ function SessionRunner({ config }: { config: SessionConfig }) {
   const { state, dispatch } = useAppState()
   const navigate = useNavigate()
   const speech = useSpeech(state.settings.voiceURI, state.settings.rate)
+  const { t, plural, formatNumber, formatPercent } = useI18n()
+  usePageTitle(t('meta.sessionTitle'))
   const { speak: speakWord, cancel: cancelSpeech } = speech
   const [run, setRun] = useState<RunState>(() => createRunState(config))
   const speakRef = useRef(speakWord)
+  const phaseRef = useRef<HTMLElement>(null)
+  const hasMountedRef = useRef(false)
 
   const currentWord = run.words[run.index] ?? ''
   const isLastWord = run.index + 1 >= run.words.length
-  const modeLabel = run.mode === 'practice' ? 'Übung' : 'Prüfung'
+  const modeLabel = run.mode === 'practice' ? t('mode.practice') : t('mode.exam')
   const markedCount = run.marks.filter((mark) => mark !== undefined).length
   const wrongCount = run.marks.filter((mark) => mark === false).length
+  const resultStorageError = state.storageErrors.results !== undefined
+  const resultSaved = state.lastSaved.results === state.results
+  const speechErrorMessage = speech.error
+    ? t(
+        speech.error === 'unsupported'
+          ? 'settings.speech.errorUnsupported'
+          : 'settings.speech.errorFailed',
+      )
+    : null
 
   useEffect(() => {
     speakRef.current = speakWord
@@ -87,6 +103,15 @@ function SessionRunner({ config }: { config: SessionConfig }) {
       cancelSpeech()
     }
   }, [run.phase, cancelSpeech])
+
+  useEffect(() => {
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true
+      return
+    }
+
+    phaseRef.current?.focus()
+  }, [run.phase, run.index])
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -200,8 +225,8 @@ function SessionRunner({ config }: { config: SessionConfig }) {
   }
 
   function restartSession() {
-    const words = sampleWords(config.allWords, config.wordCount, state.settings.shuffle)
-    restartWith(words, config.mode)
+    const words = sampleWords(config.allWords, config.wordCount, config.shuffle)
+    restartWith(words, run.mode)
   }
 
   function retryWrongWords() {
@@ -213,10 +238,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
   }
 
   function exitSession() {
-    if (
-      run.phase !== 'result' &&
-      !window.confirm('Session wirklich beenden? Der Fortschritt geht verloren.')
-    ) {
+    if (run.phase !== 'result' && !window.confirm(t('session.exitConfirm'))) {
       return
     }
 
@@ -224,11 +246,33 @@ function SessionRunner({ config }: { config: SessionConfig }) {
     navigate('/')
   }
 
+  function resultHeading(): string {
+    if (!run.result || run.result.total === 0) {
+      return t('session.result.keepPracticing')
+    }
+
+    const ratio = run.result.correct / run.result.total
+
+    if (ratio === 1) {
+      return t('session.result.perfect')
+    }
+
+    if (ratio >= 0.8) {
+      return t('session.result.great')
+    }
+
+    if (ratio >= 0.6) {
+      return t('session.result.good')
+    }
+
+    return t('session.result.keepPracticing')
+  }
+
   return (
     <div className="session">
       <div className="session-top">
         <button type="button" className="btn btn--ghost btn--small" onClick={exitSession}>
-          ← Beenden
+          ← {t('session.exit')}
         </button>
         <div className="session-meta">
           <span className={`badge badge--${run.mode}`}>{modeLabel}</span>
@@ -237,11 +281,14 @@ function SessionRunner({ config }: { config: SessionConfig }) {
       </div>
 
       {run.phase === 'word' && (
-        <section aria-labelledby="word-heading">
+        <section ref={phaseRef} tabIndex={-1} aria-labelledby="word-heading">
           <div className="session-progress">
             <div className="session-progress__label">
               <span>
-                Wort {run.index + 1} von {run.words.length}
+                {t('session.progress', {
+                  current: formatNumber(run.index + 1),
+                  total: formatNumber(run.words.length),
+                })}
               </span>
             </div>
             <ProgressBar current={run.index + 1} total={run.words.length} />
@@ -249,35 +296,41 @@ function SessionRunner({ config }: { config: SessionConfig }) {
 
           <div className="panel session-card session-card--listen">
             <p className="eyebrow" id="word-heading">
-              {run.mode === 'practice' ? 'Übung' : 'Prüfung'}
+              {modeLabel}
             </p>
             <p className="session-instruction">
-              {run.mode === 'practice'
-                ? 'Hör gut zu und schreibe das Wort auf dein Papier.'
-                : 'Schreibe das Wort auf dein Papier.'}
+              {t(
+                run.mode === 'practice'
+                  ? 'session.instructionPractice'
+                  : 'session.instructionExam',
+              )}
             </p>
 
-            <AudioButton
-              onClick={() => speakWord(currentWord)}
-              speaking={speech.speaking}
-              label={speech.speaking ? 'Wird vorgelesen …' : 'Wort anhören'}
-              disabled={!speech.supported}
-            />
+            <div className="listen-scene">
+              <Mascot mood="listen" className="listen-scene__mascot" />
+              <AudioButton
+                onClick={() => speakWord(currentWord)}
+                speaking={speech.speaking}
+                label={
+                  speech.speaking ? t('session.audioPlaying') : t('session.audioListen')
+                }
+                disabled={!speech.supported}
+              />
+            </div>
 
             {!speech.supported && (
               <p className="notice notice--warning" role="alert">
-                Dein Browser kann keine Wörter vorlesen. Du kannst die Antwort trotzdem
-                aufdecken.
+                {t('session.unsupported')}
               </p>
             )}
 
-            {speech.error && (
+            {speechErrorMessage && (
               <p className="notice notice--error" role="alert">
-                {speech.error}
+                {speechErrorMessage}
               </p>
             )}
 
-            <p className="keyboard-hint">Tipp: Die Leertaste spielt das Wort erneut ab.</p>
+            <p className="keyboard-hint">{t('session.keyboardHint')}</p>
 
             <div className="session-primary-action">
               {run.mode === 'practice' ? (
@@ -286,7 +339,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                   className="btn btn--primary btn--large"
                   onClick={revealWord}
                 >
-                  Antwort zeigen
+                  {t('session.reveal')}
                 </button>
               ) : (
                 <button
@@ -294,7 +347,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                   className="btn btn--primary btn--large"
                   onClick={nextExamWord}
                 >
-                  {isLastWord ? 'Weiter zur Auswertung' : 'Weiter'}
+                  {isLastWord ? t('session.toReview') : t('session.next')}
                 </button>
               )}
             </div>
@@ -303,11 +356,14 @@ function SessionRunner({ config }: { config: SessionConfig }) {
       )}
 
       {run.phase === 'revealed' && (
-        <section aria-labelledby="reveal-heading">
+        <section ref={phaseRef} tabIndex={-1} aria-labelledby="reveal-heading">
           <div className="session-progress">
             <div className="session-progress__label">
               <span>
-                Wort {run.index + 1} von {run.words.length}
+                {t('session.progress', {
+                  current: formatNumber(run.index + 1),
+                  total: formatNumber(run.words.length),
+                })}
               </span>
             </div>
             <ProgressBar current={run.index + 1} total={run.words.length} />
@@ -315,9 +371,11 @@ function SessionRunner({ config }: { config: SessionConfig }) {
 
           <div className="panel session-card">
             <p className="eyebrow" id="reveal-heading">
-              Die richtige Schreibweise
+              {t('session.revealHeading')}
             </p>
-            <p className="reveal-word">{currentWord}</p>
+            <p className="reveal-word" lang="de-DE">
+              {currentWord}
+            </p>
 
             <div className="inline-actions inline-actions--center">
               <button
@@ -326,11 +384,11 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                 onClick={() => speakWord(currentWord)}
                 disabled={!speech.supported}
               >
-                {speech.speaking ? 'Wird vorgelesen …' : 'Noch einmal hören'}
+                {speech.speaking ? t('session.audioPlaying') : t('session.repeat')}
               </button>
             </div>
 
-            <p className="session-question">Hat die Schreibweise gestimmt?</p>
+            <p className="session-question">{t('session.markQuestion')}</p>
 
             <div className="mark-actions">
               <button
@@ -338,14 +396,14 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                 className="btn btn--success btn--large"
                 onClick={() => markWord(true)}
               >
-                Richtig
+                {t('session.correct')}
               </button>
               <button
                 type="button"
                 className="btn btn--danger btn--large"
                 onClick={() => markWord(false)}
               >
-                Falsch
+                {t('session.wrong')}
               </button>
             </div>
           </div>
@@ -353,17 +411,18 @@ function SessionRunner({ config }: { config: SessionConfig }) {
       )}
 
       {run.phase === 'review' && (
-        <section aria-labelledby="review-heading">
+        <section ref={phaseRef} tabIndex={-1} aria-labelledby="review-heading">
           <div className="review-heading">
             <div>
-              <p className="eyebrow">Auswertung</p>
-              <h1 id="review-heading">Wörter prüfen</h1>
-              <p className="muted">
-                Vergleiche mit dem Papier und markiere jedes Wort.
-              </p>
+              <p className="eyebrow">{t('session.review.eyebrow')}</p>
+              <h1 id="review-heading">{t('session.review.heading')}</h1>
+              <p className="muted">{t('session.review.text')}</p>
             </div>
             <span className="badge badge--soft">
-              {markedCount}/{run.words.length} markiert
+              {t('common.marked', {
+                marked: formatNumber(markedCount),
+                total: formatNumber(run.words.length),
+              })}
             </span>
           </div>
 
@@ -379,7 +438,9 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                   }`}
                 >
                   <span className="review-row__index">{index + 1}</span>
-                  <strong className="review-row__word">{word}</strong>
+                  <strong className="review-row__word" lang="de-DE">
+                    {word}
+                  </strong>
                   <div className="review-row__actions">
                     <button
                       type="button"
@@ -387,7 +448,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                       onClick={() => setReviewMark(index, true)}
                       aria-pressed={mark === true}
                     >
-                      Richtig
+                      {t('session.correct')}
                     </button>
                     <button
                       type="button"
@@ -395,7 +456,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                       onClick={() => setReviewMark(index, false)}
                       aria-pressed={mark === false}
                     >
-                      Falsch
+                      {t('session.wrong')}
                     </button>
                   </div>
                 </div>
@@ -406,12 +467,17 @@ function SessionRunner({ config }: { config: SessionConfig }) {
           <div className="review-footer">
             <p className="muted">
               {markedCount < run.words.length
-                ? `Noch ${run.words.length - markedCount} ${
-                    run.words.length - markedCount === 1 ? 'Wort' : 'Wörter'
-                  } markieren.`
+                ? plural(
+                    run.words.length - markedCount,
+                    'session.review.remainingOne',
+                    'session.review.remainingMany',
+                    { count: formatNumber(run.words.length - markedCount) },
+                  )
                 : wrongCount === 0
-                  ? 'Alles richtig!'
-                  : `${wrongCount} ${wrongCount === 1 ? 'Wort ist' : 'Wörter sind'} falsch.`}
+                  ? t('session.review.allCorrect')
+                  : plural(wrongCount, 'session.review.wrongOne', 'session.review.wrongMany', {
+                      count: formatNumber(wrongCount),
+                    })}
             </p>
             <button
               type="button"
@@ -419,25 +485,20 @@ function SessionRunner({ config }: { config: SessionConfig }) {
               onClick={submitReview}
               disabled={markedCount < run.words.length}
             >
-              Auswertung abschließen
+              {t('session.review.complete')}
             </button>
           </div>
         </section>
       )}
 
       {run.phase === 'result' && run.result && (
-        <section aria-labelledby="result-heading">
+        <section ref={phaseRef} tabIndex={-1} aria-labelledby="result-heading">
           <div className="panel result-hero">
-            <p className="eyebrow">{modeLabel} beendet</p>
-            <h1 id="result-heading">
-              {run.result.correct === run.result.total
-                ? 'Perfekt!'
-                : run.result.correct / run.result.total >= 0.8
-                  ? 'Sehr gut!'
-                  : run.result.correct / run.result.total >= 0.6
-                    ? 'Gut gemacht!'
-                    : 'Weiter üben!'}
-            </h1>
+            <Mascot mood="cheer" className="result-hero__mascot" />
+            <p className="eyebrow">
+              {t('session.result.modeEnded', { mode: modeLabel })}
+            </p>
+            <h1 id="result-heading">{resultHeading()}</h1>
 
             <div
               className="score-circle"
@@ -449,10 +510,10 @@ function SessionRunner({ config }: { config: SessionConfig }) {
             >
               <div className="score-circle__inner">
                 <strong>
-                  {run.result.correct}/{run.result.total}
+                  {formatNumber(run.result.correct)}/{formatNumber(run.result.total)}
                 </strong>
                 <span>
-                  {Math.round((run.result.correct / run.result.total) * 100)}%
+                  {formatPercent(run.result.correct / run.result.total)}
                 </span>
               </div>
             </div>
@@ -460,13 +521,15 @@ function SessionRunner({ config }: { config: SessionConfig }) {
             <p className="muted">{run.result.listName}</p>
 
             {run.result.wrongWords.length === 0 ? (
-              <p className="success-text">Alle Wörter richtig geschrieben. Super!</p>
+              <p className="success-text">{t('session.result.allCorrect')}</p>
             ) : (
               <div className="wrong-block">
-                <h2>Diese Wörter noch üben</h2>
+                <h2>{t('session.result.wrongHeading')}</h2>
                 <ul className="word-chips word-chips--wrong">
                   {run.result.wrongWords.map((word, index) => (
-                    <li key={`${word}-${index}`}>{word}</li>
+                    <li key={`${word}-${index}`} lang="de-DE">
+                      {word}
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -480,7 +543,7 @@ function SessionRunner({ config }: { config: SessionConfig }) {
                 className="btn btn--primary btn--large"
                 onClick={retryWrongWords}
               >
-                Falsche Wörter üben
+                {t('session.result.retryWrong')}
               </button>
             )}
             <button
@@ -488,18 +551,28 @@ function SessionRunner({ config }: { config: SessionConfig }) {
               className="btn btn--secondary btn--large"
               onClick={restartSession}
             >
-              {run.mode === 'practice' ? 'Neue Übung' : 'Neue Prüfung'}
+              {t(
+                run.mode === 'practice'
+                  ? 'session.result.newPractice'
+                  : 'session.result.newExam',
+              )}
             </button>
             <button
               type="button"
               className="btn btn--ghost btn--large"
               onClick={exitSession}
             >
-              Zur Startseite
+              {t('session.result.home')}
             </button>
           </div>
 
-          <p className="save-note">Das Ergebnis wurde auf diesem Gerät gespeichert.</p>
+          {resultStorageError ? (
+            <p className="notice notice--error" role="alert">
+              {t('storage.resultNotSaved')}
+            </p>
+          ) : (
+            resultSaved && <p className="save-note">{t('storage.resultSaved')}</p>
+          )}
         </section>
       )}
     </div>

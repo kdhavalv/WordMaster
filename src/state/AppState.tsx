@@ -8,16 +8,34 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(appReducer, undefined, createInitialState)
 
   useEffect(() => {
-    saveLists(state.lists)
-  }, [state.lists])
+    const result = saveLists(state.lists)
+    dispatch({
+      type: 'setStorageStatus',
+      area: 'lists',
+      error: result.ok ? null : result.error,
+      value: state.lists,
+    })
+  }, [state.lists, dispatch])
 
   useEffect(() => {
-    saveResults(state.results)
-  }, [state.results])
+    const result = saveResults(state.results)
+    dispatch({
+      type: 'setStorageStatus',
+      area: 'results',
+      error: result.ok ? null : result.error,
+      value: state.results,
+    })
+  }, [state.results, dispatch])
 
   useEffect(() => {
-    saveSettings(state.settings)
-  }, [state.settings])
+    const result = saveSettings(state.settings)
+    dispatch({
+      type: 'setStorageStatus',
+      area: 'settings',
+      error: result.ok ? null : result.error,
+      value: state.settings,
+    })
+  }, [state.settings, dispatch])
 
   return (
     <AppStateContext.Provider value={{ state, dispatch }}>

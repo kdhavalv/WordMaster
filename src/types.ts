@@ -1,3 +1,5 @@
+export type Locale = 'de' | 'en'
+
 export type SessionMode = 'practice' | 'exam'
 
 export type WordList = {
@@ -20,6 +22,7 @@ export type SessionResult = {
 }
 
 export type Settings = {
+  language: Locale
   voiceURI?: string
   rate: number
   autoPlay: boolean
@@ -34,4 +37,5 @@ export type SessionConfig = {
   allWords: string[]
   wordCount: number
   mode: SessionMode
+  shuffle: boolean
 }

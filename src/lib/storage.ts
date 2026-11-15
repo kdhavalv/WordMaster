@@ -6,7 +6,14 @@ const LISTS_KEY = 'wordmaster.lists.v1'
 const RESULTS_KEY = 'wordmaster.results.v1'
 const SETTINGS_KEY = 'wordmaster.settings.v1'
 
+export type StorageArea = 'lists' | 'results' | 'settings'
+export type StorageError = 'unavailable' | 'quota' | 'unknown'
+export type StorageWriteResult =
+  | { ok: true }
+  | { ok: false; error: StorageError }
+
 export const defaultSettings: Settings = {
+  language: 'de',
   voiceURI: undefined,
   rate: 0.85,
   autoPlay: true,
@@ -32,15 +39,30 @@ function readStorage(key: string): unknown {
   }
 }
 
-function writeStorage(key: string, value: unknown): void {
+function classifyStorageError(error: unknown): StorageError {
+  if (typeof DOMException !== 'undefined' && error instanceof DOMException) {
+    if (error.name === 'QuotaExceededError' || error.name === 'NS_ERROR_DOM_QUOTA_REACHED') {
+      return 'quota'
+    }
+
+    if (error.name === 'SecurityError' || error.name === 'NotAllowedError') {
+      return 'unavailable'
+    }
+  }
+
+  return 'unknown'
+}
+
+function writeStorage(key: string, value: unknown): StorageWriteResult {
   if (typeof window === 'undefined') {
-    return
+    return { ok: true }
   }
 
   try {
     window.localStorage.setItem(key, JSON.stringify(value))
-  } catch {
-    return
+    return { ok: true }
+  } catch (error) {
+    return { ok: false, error: classifyStorageError(error) }
   }
 }
 
@@ -159,6 +181,7 @@ export function sanitizeSettings(value: unknown): Settings {
       : defaultSettings.defaultWordCount
 
   return {
+    language: value.language === 'en' ? 'en' : 'de',
     voiceURI:
       typeof value.voiceURI === 'string' && value.voiceURI ? value.voiceURI : undefined,
     rate,
@@ -173,22 +196,22 @@ export function loadLists(): WordList[] {
   return sanitizeLists(readStorage(LISTS_KEY))
 }
 
-export function saveLists(lists: WordList[]): void {
-  writeStorage(LISTS_KEY, lists)
+export function saveLists(lists: WordList[]): StorageWriteResult {
+  return writeStorage(LISTS_KEY, lists)
 }
 
 export function loadResults(): SessionResult[] {
   return sanitizeResults(readStorage(RESULTS_KEY))
 }
 
-export function saveResults(results: SessionResult[]): void {
-  writeStorage(RESULTS_KEY, results)
+export function saveResults(results: SessionResult[]): StorageWriteResult {
+  return writeStorage(RESULTS_KEY, results)
 }
 
 export function loadSettings(): Settings {
   return sanitizeSettings(readStorage(SETTINGS_KEY))
 }
 
-export function saveSettings(settings: Settings): void {
-  writeStorage(SETTINGS_KEY, settings)
+export function saveSettings(settings: Settings): StorageWriteResult {
+  return writeStorage(SETTINGS_KEY, settings)
 }

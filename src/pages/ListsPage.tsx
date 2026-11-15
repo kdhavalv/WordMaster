@@ -1,7 +1,9 @@
 import { useRef, useState } from 'react'
 import type { ChangeEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { Mascot } from '../components/Mascot'
 import { STARTER_LIST } from '../data/starterWords'
+import { useI18n, usePageTitle } from '../i18n'
 import { downloadJson, readJsonFile } from '../lib/files'
 import { sanitizeLists } from '../lib/storage'
 import { createId, isRecord } from '../lib/utils'
@@ -27,16 +29,28 @@ function extractListPayload(data: unknown): unknown[] {
 
 export function ListsPage() {
   const { state, dispatch } = useAppState()
+  const { t, plural, formatNumber } = useI18n()
   const navigate = useNavigate()
+  usePageTitle(t('meta.listsTitle'))
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [message, setMessage] = useState<Message | null>(null)
+
+  function displayName(list: WordList): string {
+    return list.id === STARTER_LIST.id ? t('starter.name') : list.name
+  }
+
+  function wordCountLabel(count: number): string {
+    return plural(count, 'common.wordOne', 'common.wordMany', {
+      count: formatNumber(count),
+    })
+  }
 
   function duplicateList(list: WordList) {
     const now = new Date().toISOString()
     const copy: WordList = {
       ...list,
       id: createId(),
-      name: `${list.name} (Kopie)`,
+      name: `${displayName(list)} (${t('common.copySuffix')})`,
       createdAt: now,
       updatedAt: now,
     }
@@ -46,11 +60,13 @@ export function ListsPage() {
   }
 
   function deleteList(list: WordList) {
-    const confirmed = window.confirm(`Liste „${list.name}“ wirklich löschen?`)
+    const confirmed = window.confirm(
+      t('lists.deleteConfirm', { name: displayName(list) }),
+    )
 
     if (confirmed) {
       dispatch({ type: 'deleteList', id: list.id })
-      setMessage({ tone: 'info', text: 'Liste gelöscht.' })
+      setMessage({ tone: 'info', text: t('lists.deleted') })
     }
   }
 
@@ -82,17 +98,19 @@ export function ListsPage() {
       }))
 
       if (imported.length === 0) {
-        setMessage({ tone: 'error', text: 'In der Datei wurden keine gültigen Listen gefunden.' })
+        setMessage({ tone: 'error', text: t('lists.importEmpty') })
         return
       }
 
       dispatch({ type: 'addLists', lists: imported })
       setMessage({
         tone: 'info',
-        text: `${imported.length} ${imported.length === 1 ? 'Liste' : 'Listen'} importiert.`,
+        text: t(imported.length === 1 ? 'lists.importedOne' : 'lists.importedMany', {
+          count: formatNumber(imported.length),
+        }),
       })
     } catch {
-      setMessage({ tone: 'error', text: 'Die Datei konnte nicht gelesen werden.' })
+      setMessage({ tone: 'error', text: t('lists.readError') })
     }
   }
 
@@ -100,22 +118,20 @@ export function ListsPage() {
     <div className="page">
       <div className="page-heading">
         <div>
-          <p className="eyebrow">Wortlisten</p>
-          <h1>Deine Wörter</h1>
-          <p className="page-heading__text">
-            Lege eigene Listen an, bearbeite sie oder nutze die Beispiel-Liste als Ausgangspunkt.
-          </p>
+          <p className="eyebrow">{t('lists.eyebrow')}</p>
+          <h1>{t('lists.title')}</h1>
+          <p className="page-heading__text">{t('lists.text')}</p>
         </div>
         <div className="page-heading__actions">
           <Link className="btn btn--primary" to="/listen/neu">
-            Neue Liste
+            {t('lists.new')}
           </Link>
           <button
             type="button"
             className="btn btn--secondary"
             onClick={() => fileInputRef.current?.click()}
           >
-            Importieren
+            {t('common.import')}
           </button>
           <button
             type="button"
@@ -123,13 +139,15 @@ export function ListsPage() {
             onClick={exportAllLists}
             disabled={state.lists.length === 0}
           >
-            Exportieren
+            {t('common.export')}
           </button>
           <input
             ref={fileInputRef}
             type="file"
             accept="application/json,.json"
             className="visually-hidden"
+            aria-label={t('common.import')}
+            tabIndex={-1}
             onChange={importLists}
           />
         </div>
@@ -147,20 +165,21 @@ export function ListsPage() {
       <section className="panel" aria-labelledby="starter-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Vorlage</p>
-            <h2 id="starter-heading">{STARTER_LIST.name}</h2>
+            <p className="eyebrow">{t('starter.template')}</p>
+            <h2 id="starter-heading">{t('starter.name')}</h2>
           </div>
-          <span className="badge badge--soft">{STARTER_LIST.words.length} Wörter</span>
+          <span className="badge badge--soft">
+            {wordCountLabel(STARTER_LIST.words.length)}
+          </span>
         </div>
-        <p className="muted">
-          Häufige Wörter mit schwierigen Stellen: Dehnungs-h, Doppelkonsonanten, ä/äu,
-          s/ss/ß, v/f und Auslaut d/t.
-        </p>
+        <p className="muted">{t('starter.description')}</p>
         <details className="word-preview">
-          <summary>Wörter anzeigen</summary>
+          <summary>{t('common.showWords')}</summary>
           <ul className="word-chips">
             {STARTER_LIST.words.map((word) => (
-              <li key={word}>{word}</li>
+              <li key={word} lang="de-DE">
+                {word}
+              </li>
             ))}
           </ul>
         </details>
@@ -170,7 +189,7 @@ export function ListsPage() {
             className="btn btn--secondary"
             onClick={() => duplicateList(STARTER_LIST)}
           >
-            Kopie bearbeiten
+            {t('starter.copy')}
           </button>
         </div>
       </section>
@@ -178,17 +197,18 @@ export function ListsPage() {
       <section aria-labelledby="own-lists-heading">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Eigene Listen</p>
-            <h2 id="own-lists-heading">Meine Listen</h2>
+            <p className="eyebrow">{t('lists.ownEyebrow')}</p>
+            <h2 id="own-lists-heading">{t('lists.ownHeading')}</h2>
           </div>
-          <span className="badge badge--soft">{state.lists.length}</span>
+          <span className="badge badge--soft">{formatNumber(state.lists.length)}</span>
         </div>
 
         {state.lists.length === 0 ? (
-          <div className="panel empty-state">
-            <p>Du hast noch keine eigene Liste.</p>
+          <div className="panel empty-state empty-state--with-mascot">
+            <Mascot className="empty-state__mascot" />
+            <p>{t('lists.empty')}</p>
             <Link className="btn btn--primary" to="/listen/neu">
-              Erste Liste anlegen
+              {t('lists.first')}
             </Link>
           </div>
         ) : (
@@ -197,14 +217,20 @@ export function ListsPage() {
               <article key={list.id} className="panel list-card">
                 <div className="list-card__head">
                   <h3>{list.name}</h3>
-                  <span className="badge badge--soft">{list.words.length} Wörter</span>
+                  <span className="badge badge--soft">
+                    {wordCountLabel(list.words.length)}
+                  </span>
                 </div>
-                <p className="list-card__preview">{list.words.slice(0, 8).join(' · ')}</p>
+                <p className="list-card__preview" lang="de-DE">
+                  {list.words.slice(0, 8).join(' · ')}
+                </p>
                 <details className="word-preview">
-                  <summary>Alle Wörter anzeigen</summary>
+                  <summary>{t('common.showAllWords')}</summary>
                   <ul className="word-chips">
                     {list.words.map((word) => (
-                      <li key={word}>{word}</li>
+                      <li key={word} lang="de-DE">
+                        {word}
+                      </li>
                     ))}
                   </ul>
                 </details>
@@ -214,21 +240,21 @@ export function ListsPage() {
                     className="btn btn--secondary btn--small"
                     onClick={() => navigate(`/listen/${list.id}`)}
                   >
-                    Bearbeiten
+                    {t('common.edit')}
                   </button>
                   <button
                     type="button"
                     className="btn btn--secondary btn--small"
                     onClick={() => duplicateList(list)}
                   >
-                    Duplizieren
+                    {t('common.duplicate')}
                   </button>
                   <button
                     type="button"
                     className="btn btn--ghost btn--small btn--danger-text"
                     onClick={() => deleteList(list)}
                   >
-                    Löschen
+                    {t('common.delete')}
                   </button>
                 </div>
               </article>
