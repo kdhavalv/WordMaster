@@ -42,6 +42,18 @@ test('switches to English, keeps German words, and persists after reload', async
   await expect(page.locator('html')).toHaveAttribute('lang', 'en')
 })
 
+test('skip link focuses main content without navigating away', async ({ page }) => {
+  await page.goto('/#/einstellungen')
+  await expect(page.getByRole('heading', { name: 'So soll Wortmeister klingen' })).toBeVisible()
+
+  await page.keyboard.press('Tab')
+  await expect(page.getByRole('link', { name: 'Zum Inhalt springen' })).toBeFocused()
+  await page.keyboard.press('Enter')
+
+  await expect(page).toHaveURL(/#\/einstellungen$/)
+  await expect(page.locator('#main-content')).toBeFocused()
+})
+
 test('has no horizontal overflow at phone, tablet, and desktop widths', async ({ page }) => {
   for (const viewport of [
     { width: 320, height: 800 },

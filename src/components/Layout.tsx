@@ -35,7 +35,14 @@ export function Layout() {
 
   return (
     <div className="app">
-      <a className="skip-link" href="#main-content">
+      <a
+        className="skip-link"
+        href="#main-content"
+        onClick={(event) => {
+          event.preventDefault()
+          mainRef.current?.focus()
+        }}
+      >
         {t('skip.link')}
       </a>
 
